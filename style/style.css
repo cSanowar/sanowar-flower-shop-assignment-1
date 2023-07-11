@@ -8,33 +8,36 @@ body {
 }
 
 .banner {
-   
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
+    background-size: cover;
 
 }
-.banner-content{
-    margin: 50px 240px 0px 240px;
+
+.banner-content {
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-info {
+    margin-left: 240px;
 }
 
 .banner-heading {
-    margin-bottom: 30px;
-    margin-right: 90px;
     color: #272727;
     font-size: 70px;
     font-weight: 800;
-    width: 700px;
-    height: 290px;
 }
 
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
-    width: 634px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .btn-primary {
@@ -50,59 +53,68 @@ body {
 .banner-picture {
     width: 600px;
     height: 800px;
-    margin-right: 240px;
-    margin-top: 50px;
 
 }
 
-.bonas-section {
+
+.bonas-section-info {
+    margin: 100px;
+    margin-bottom: 50px;
     text-align: center;
 
 }
 
 .bonas-section-title {
-    margin-top: 200px;
     margin-bottom: 15px;
 }
 
 .bonas-section-description {
-
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 50px;
-
-
 }
 
-.bonas-section-images {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    max-width: 65%;
+.bonas-section{
+    width: 80%;
     margin: auto;
-
-
+}
+.bonas-section-images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    
 
 }
+.bonas-section-pic{
+    width:465px;
+    height:538px;
+    box-shadow: 4px 5px 8px #FFF;
+    border-radius: 5px;
 
-.first-pic {
+    
+}
+.bonas-section-img{
+    width: 100%;
     border-radius: 300px 300px 0px 0px;
+}
+.first-pic {
+    
     background: rgba(167, 33, 98, 0.15);
-
+    
 }
 
 .second-pic {
-    border-radius: 300px 300px 0px 0px;
+  
     background: rgba(5, 151, 160, 0.15);
-
+    
 }
 
 .third-pic {
-    border-radius: 300px 300px 0px 0px;
+   
     background: rgba(71, 125, 17, 0.15);
-
+    
 }
 
 .pic-title {
@@ -111,6 +123,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     margin-top: 30px;
+    text-decoration: underline;
 }
 
 .hot-deal-section {
