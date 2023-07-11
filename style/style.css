@@ -6,15 +6,12 @@
 body {
     font-family: 'lato';
 }
-header{
-    
 
-}
 .banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    gap: 20px;
     background: rgba(229, 84, 115, 0.10);
     background-size: cover;
 
@@ -127,7 +124,7 @@ header{
     font-size: 24px;
     font-weight: 700;
     margin-top: 30px;
-    text-decoration: underline;
+    text-decoration-line: underline;
 }
 
 .hot-deal-section {
