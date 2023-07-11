@@ -6,32 +6,36 @@
 body {
     font-family: 'lato';
 }
-.banner-container{
+
+.banner-container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.1);
 }
-.left-side{
+
+.left-side {
     margin-left: 150px;
 }
-.banner-img{
+
+.banner-img {
     width: 600px;
     height: 800px;
 }
+
 .banner-heading {
     color: #272727;
     margin-bottom: 35px;
     font-size: 70px;
-font-weight: 800;
+    font-weight: 800;
 }
 
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
 }
 
 .btn-primary {
@@ -191,7 +195,8 @@ margin-bottom: 30px;
     height: 396px;
     border: 5px #272727;
     border-radius: 5px;
-margin-top: 20px;
+    margin-top: 20px;
+
     .insta-pic {
         width: 100%;
         border-radius: 5px;
@@ -241,6 +246,104 @@ margin-top: 20px;
 
 #shop {
     color: rgba(255, 255, 255, 1);
+}
+
+.disscount-scetion {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 50vh;
+    text-shadow: 2px 2px 2px rgb(121, 119, 117);
+    background-color: rgba(229, 84, 115, 0.1);
+    color: grey;
+}
+
+#announcement {
+    font-size: 40px;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.festiv {
+    background-color: beige;
+    color: black;
+    border-radius: 50%;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.discount-announcement {
+    text-align: center;
+}
+
+#date {
+    color: blue;
+}
+
+#sale {
+    text-decoration: double;
+    color: red;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.dis-sec-title {
+
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+}
+
+.product {
+    width: 350px;
+
+    text-align: center;
+    border: 5px solid #571e1e;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: antiquewhite;
+
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+
+.product-img {
+    width: 100%;
+    box-shadow: 4px 5px 8px #FFF;
+    gap: 10px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+#name {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-top: 2px solid red;
+
+}
+
+#cost {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 footer {
