@@ -8,12 +8,15 @@ body {
 }
 
 .banner {
-    margin: 50px 240px 0px 240px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
 
+}
+.banner-content{
+    margin: 50px 240px 0px 240px;
 }
 
 .banner-heading {
